@@ -1,0 +1,163 @@
+.gst-calculator-card {
+  background-color: #ffffff;
+  border-radius: 18px; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative; 
+  overflow: hidden; 
+}
+
+.card-title {
+  font-size: 2.4em;
+  color: #1a237e; 
+  margin-bottom: 35px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.calculation-type-selector {
+  display: flex;
+  background-color: #f0f4f7;
+  border-radius: 12px;
+  padding: 6px;
+  margin-bottom: 35px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.selector-button {
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 9px;
+  background-color: transparent;
+  color: #555;
+  font-size: 1.05em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  white-space: nowrap; /* Prevent wrapping text */
+}
+
+.selector-button.active {
+  background-color: #42a5f5; 
+  color: white;
+  box-shadow: 0 3px 8px rgba(66, 165, 245, 0.4);
+}
+
+.selector-button:not(.active):hover {
+  background-color: #e0e6eb;
+}
+
+
+.input-group {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.input-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 1.1em;
+}
+
+.input-field {
+  width: calc(100% - 24px); 
+  padding: 14px 12px;
+  border: none; 
+  border-radius: 10px;
+  background-color: #f7f9fb; 
+  font-size: 1.3em; 
+  color: #222;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.08); 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-field:focus {
+  background-color: #e8f0fe; 
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.08), 0 0 0 3px rgba(66, 165, 245, 0.3); 
+  outline: none;
+}
+
+
+.custom-select-wrapper {
+  position: relative;
+}
+
+.custom-select {
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  appearance: none; 
+  padding-right: 40px; 
+  cursor: pointer;
+}
+
+.select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%) rotate(45deg); 
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #555;
+  border-bottom: 2px solid #555;
+  pointer-events: none; 
+  transition: transform 0.3s ease;
+}
+
+.custom-select:focus + .select-arrow {
+  transform: translateY(-50%) rotate(225deg); 
+}
+
+
+.results-display {
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 1px solid #eee; 
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 1.25em;
+  border-bottom: 1px dashed #f0f0f0;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-label {
+  font-weight: 400;
+  color: #555;
+}
+
+.result-value {
+  font-weight: 600;
+  color: #1a237e; 
+}
+
+.total-row {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #e0e0e0; 
+}
+
+.total-label {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #2e7d32; 
+}
+
+.total-value {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #2e7d32; 
+}
