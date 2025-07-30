@@ -1,0 +1,18 @@
+.course-list-container {
+  margin-bottom: 30px;
+}
+
+.no-courses-message {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  padding: 20px;
+  border: 1px dashed #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
