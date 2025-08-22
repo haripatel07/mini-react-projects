@@ -20,9 +20,9 @@ This app provides a simple and intuitive UI for students to enter courses, credi
 
 -----
 
-## Screenshots
+## Screenshot
 
-*(You can add actual app screenshots here after running the project)*
+![Pic](https://github.com/haripatel07/mini-react-projects/blob/main/academic-calculator-app/src/assets/Academic%20Performance%20Calculator_page.jpg)
 
 -----
 
