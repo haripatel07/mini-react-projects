@@ -40,7 +40,7 @@ cd react-mini-projects/gst-calculator-app
 npm install
 
 # Start the development server
-npm run dev
+npm start
 ```
 
 -----
