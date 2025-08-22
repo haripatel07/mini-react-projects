@@ -1,14 +1,10 @@
-import '../styles/CourseItem.css';
+import "../styles/CourseItem.css";
 
-function CourseItem({ course, onDelete }) {
+export default function CourseItem({ course, index, deleteCourse }) {
   return (
-    <li className="course-item">
-      <span>
-        <strong>{course.name}</strong> (Sem: {course.semester}) - {course.credits} Credits, Grade: {course.grade}
-      </span>
-      <button className="delete-button" onClick={onDelete}>Delete</button>
-    </li>
+    <div className="course-item">
+      <span>{course.name} | {course.credits} Credits | Grade: {course.grade} | Sem {course.semester}</span>
+      <button onClick={() => deleteCourse(index)}>Delete</button>
+    </div>
   );
 }
-
-export default CourseItem;

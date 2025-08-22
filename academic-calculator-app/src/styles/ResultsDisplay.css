@@ -1,36 +1,25 @@
 .results-display {
-  background-color: #e0f2f7;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-top: 2rem;
 }
 
 .results-display h2 {
-  color: #007bff;
-  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #111827;
 }
 
-.result-section {
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 6px;
-  margin-bottom: 15px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+.result-card {
+  background: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.8rem;
 }
 
-.result-section h3 {
-  color: #0056b3;
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-}
-
-.result-section p {
-  margin: 5px 0;
+.result-card strong {
+  color: #2563eb;
   font-size: 1.1rem;
-}
-
-.result-section strong {
-  color: #0056b3;
 }
