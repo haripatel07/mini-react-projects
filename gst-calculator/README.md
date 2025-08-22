@@ -24,7 +24,7 @@ This is a single-page application built with React to quickly and accurately cal
 
 ## **Screenshot**
 
-
+![GST Page](https://github.com/haripatel07/mini-react-projects/blob/main/gst-calculator/src/assets/GST_Calculator_page.jpg)
 ## **Installation & Setup**
 
 Clone the repository and install dependencies to get started.
