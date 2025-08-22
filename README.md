@@ -32,4 +32,4 @@ A modern and sleek Goods and Services Tax (GST) calculator that allows users to 
     * Conditional rendering based on calculation type.
     * Handling form inputs (text, select, radio buttons).
 * **Unique UI Elements:** Segmented control for calculation type, custom select dropdown styling.
-* **Demo:** 
+
