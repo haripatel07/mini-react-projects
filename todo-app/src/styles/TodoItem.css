@@ -7,12 +7,24 @@
   margin-bottom: 0.5rem;
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
 }
 
 .todo-text {
   flex-grow: 1;
   color: #333;
   font-size: 1rem;
+  cursor: pointer; /* To indicate it's clickable */
+}
+
+.todo-item.completed {
+  background-color: #e0f2f1; /* Light green-ish color */
+  box-shadow: none;
+}
+
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #999;
 }
 
 .delete-button {
